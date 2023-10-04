@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('myapp.urls')),
     path('', include('gemesapp.urls')),
+    path('hw1/', include('hw_1app.urls')),
 ]
