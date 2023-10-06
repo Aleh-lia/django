@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
+    'hw_1app',
+    'gemesapp',
+    'myapp2',
+    'hw_app2',
 ]
 
 MIDDLEWARE = [
@@ -166,6 +170,11 @@ LOGGING = {
             'propagate': True,
         },
         'hw_1app': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'hw_app2': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
